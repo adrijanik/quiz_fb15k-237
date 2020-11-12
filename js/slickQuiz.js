@@ -29,7 +29,7 @@
                 nameTemplateText:  '<span>Quiz: </span>%name',
                 skipStartButton: false,
                 numberOfQuestions: 5,
-                randomSortQuestions: true,
+                randomSortQuestions: false,
                 randomSortAnswers: false,
                 preventUnanswered: true,
                 disableScore: true,
