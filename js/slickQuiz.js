@@ -648,27 +648,6 @@
                         });
 			    
 			    
-//                         var newForm = jQuery('<form>', {
-//                             'action': 'https://mailthis.to/usertemp419@gmail.com',
-//                             'target': '_top',
-// 			    'method': 'POST'
-//                         });
-// 			newForm.append(jQuery('<input>', {
-//                             'name': 'user',
-//                             'value':  'highly-ranked-user-fb15k-237',
-//                             'type': 'text'
-//                         }));
-// 			newForm.append(jQuery('<input>', {
-//                             'name': '_replyto',
-//                             'value':  'usertemp419@gmail.com',
-//                             'type': 'email'
-//                         }));
-// 		        newForm.append(jQuery('<input>', {
-//                             'name': 'body',
-//                             'value':  selectedAnswers + '|||' + $(_element + ' ' + _questions).html(),
-//                             'type': 'text'
-//                         }));
-//                         newForm.hide().appendTo("body").submit();
 //			alert(newForm.html());
                         $quizResults.append($(_element + ' ' + _questions)).fadeIn(500, kN(key,1));
                     } else {
